@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>ToDO</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body  style="margin:0 auto" >
+    <div class="page-header">
+        <h1><a href="/index"  > Simple TODO List </a> <small>这是一首简单的小情歌...</small></h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="well" style=" margin: 0 auto ; width:30%">
+        <form action="login" method="post">
+                <h1 align="center"><span  class="glyphicon glyphicon-user" ></span></h1>
+            <input type="text" name="username" class="form-control" style="margin:0 auto ; width:80%" placeholder="Username...">
+            <br>
+            <br>
+            <input type="password" name="password" class="form-control" style="margin:0 auto ; width:80%" placeholder="Password...">
+            <div style="margin:0 auto ; width:80%">
+
+            <br>
+           <font color="red">{{ log_msg }}</font> 
+            <input type="submit" name="sub" value="登录" style="float:right " class="btn btn-success">
+            <br>
+            <br>
+            </div>
+        </form>
+    </div>
+    <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
